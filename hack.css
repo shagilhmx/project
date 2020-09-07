@@ -1,0 +1,329 @@
+    body {
+      background-color:none;
+      text-align: center;
+    }
+
+    .typewrite
+     { color:#e4e417; text-decoration: none;}
+
+    .img_cont {
+      position: relative;
+      bottom: 1px;
+    }
+
+    .demo {
+      text-align: center;
+      font-size: 60px;
+      margin-top: 0px;
+      color: #fff;
+      position: relative;
+    }
+    .time {
+      font-size: 50px;
+      padding-top: 20px;
+      color: orange;
+      font-family: serif;
+      margin-bottom: 20px;
+    }
+
+    .title1 {
+      font-size: 30px;
+      padding-top: 20px;
+      font-family: serif;
+      color: white;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+
+      width: auto;
+      height: auto;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Fading animation */
+    .fade {
+      margin: auto;
+      border: 2px solid blue;
+      position: relative;
+      border: double 2px solid blue;
+      width: 250px;
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    .fade1 {
+      margin: auto;
+      float: left;
+      margin-left: 6vw;
+      border: 2px solid blue;
+      position: relative;
+      border: double 2px solid blue;
+      width: 250px;
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    .fade2 {
+      margin: auto;
+      top: -20px;
+      float: left;
+      margin-left: 19vw;
+      border: 2px solid blue;
+      position: relative;
+      border: double 2px solid blue;
+      width: 250px;
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    .fade3 {
+      margin: auto;
+      margin-left: 20vw;
+      top: -100px;
+      float: left;
+      border: 2px solid blue;
+      position: relative;
+      border: double 2px solid blue;
+      width: 250px;
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    .fade h3, h4 {
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .fade1 h3 {
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .fade2 h3 {
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .fade3 h3 {
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .active {
+  background-color: #717171;
+}
+
+    .fade:hover {
+      border: 1px solid #777;
+    }
+
+    .fade img {
+    width: 100%;
+      height: auto;
+    }
+
+    .fade1:hover {
+      border: 1px solid #777;
+    }
+
+    .fade1 img {
+    width: 100%;
+      height: auto;
+    }
+
+    .fade2:hover {
+      border: 1px solid #777;
+    }
+
+    .fade2 img {
+    width: 100%;
+      height: auto;
+    }
+
+    .fade3:hover {
+      border: 1px solid #777;
+    }
+
+    .fade3 img {
+    width: 100%;
+      height: auto;
+    }
+
+    div.text {
+      padding: 15px;
+      text-align: center;
+    }
+
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @-webkit-keyframes fade1 {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @keyframes fade1 {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @-webkit-keyframes fade2 {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @keyframes fade2 {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @-webkit-keyframes fade3 {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @keyframes fade3 {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 480px) and (min-width: 320px) {
+      #msg-box2-h{
+        width: 100%;
+        height: 1570px;
+      }
+
+      .fade1 {
+        margin-left: 20vw;
+      margin-bottom: 80px;
+      }
+
+      .fade2 {
+        margin-left: 20vw;
+        margin-bottom: 140px;
+      }
+
+      .fade3 {
+        margin-left: : 10vw;
+      }
+      .text {font-size: 11px}
+    }
+
+    @media only screen and (max-width: 640px) and (min-width: 481px){
+
+      #msg-box2-h{
+        width: 100%;
+        height: 1450px;
+      }
+      .fade1 {
+        margin-bottom: 40px;
+        margin-left: 12vw;
+      }
+      .fade2 {
+        margin-bottom: 100px;
+        margin-left: 12vw;
+      }
+      .fade3 {
+        margin-right: 12vw;
+      }
+    }
+
+    @media only screen and (max-width: 800px) and (min-width: 641px) {
+
+      #msg-box2-h{
+        width: 100%;
+        height: 1480px;
+      }
+      .fade1{
+        margin-left: 220px;
+        margin-bottom: 40px;
+      }
+
+      .fade2{
+        margin-bottom: 100px;
+        margin-left: 220px;
+      }
+
+      .fade3{
+        margin-right: 245px;
+      }
+    }
+
+    @media only screen and (max-width: 960px) and (min-width: 801px) {
+
+      #msg-box2-h{
+        width: 100%;
+        height: 700px;
+      }
+      .fade1{
+        margin-left: 10px;
+      }
+
+      .fade2{
+        margin-left: 20px;
+      }
+
+      .fade3{
+        float: right;
+        margin-right:10px;
+      }
+
+    }
+
+    @media only screen and (max-width: 1120px) and (min-width: 961px) and (max-height: 1080px){
+
+      #msg-box2-h{
+        width: 100%;
+        height: 700px;
+      }
+      .fade1{
+        margin-left: 40px;
+      }
+
+      .fade2{
+        margin-left: 80px;
+      }
+
+      .fade3{
+        margin-right: 40px;
+      }
+
+    }
+
+.container1 {
+  background-color: rgb(60, 60, 60);
+  width: 60%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+.cmrit {
+  float: right;
+  margin-top: 80px;
+}
+
+.faq {
+  margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none !important;
+}
